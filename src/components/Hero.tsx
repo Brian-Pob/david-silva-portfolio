@@ -43,10 +43,10 @@ function Hero() {
           transition={{ duration: 0.75, delay: 0.25 }}
           className="text-center mx-auto text-[#45505b]"
         >
-          <h1 className="text-5xl font-raleway font-bold md:text-6xl">
+          <h1 className="text-4xl font-raleway font-bold md:text-6xl">
             Hi, I'm David Silva
           </h1>
-          <p className="text-2xl font-poppins md:text-3xl mt-2">
+          <p className="text-1xl font-poppins md:text-3xl mt-2">
             I'm an <span className="auto-type text-[#0563bb]"></span>
           </p>
           <div className="text-2xl md:text-3xl flex flex-row space-x-8 mt-5 justify-center">

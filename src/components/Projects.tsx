@@ -35,7 +35,7 @@ function Projects() {
           <div className="my-8 px-4">
             <div className="border border-gray-400 p-4">
               <div className="text-start">
-                <div className="font-raleway font-bold text-2xl hover:text-[#8397aa]">
+                <div className="font-raleway font-bold text-lg md:text-2xl hover:text-[#8397aa]">
                   <a
                     href="https://github.com/Daverhan/PracticeManagement"
                     target="_blank"
@@ -53,7 +53,7 @@ function Projects() {
           <div className="my-8 px-4">
             <div className="border border-gray-400 p-4">
               <div className="text-start">
-                <div className="font-raleway font-bold text-2xl hover:text-[#8397aa]">
+                <div className="font-raleway font-bold text-lg md:text-2xl hover:text-[#8397aa]">
                   <a
                     href="https://github.com/Daverhan/david-silva-portfolio"
                     target="_blank"
