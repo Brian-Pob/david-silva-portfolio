@@ -39,8 +39,10 @@ function About() {
         </p>
         <div className="lg:grid grid-cols-2">
           <img
-            className="object-scale-down h-52 lg:h-80 lg:ml-12 xl:ml-24 2xl:ml-36 w-full mt-8 "
+            className="object-scale-down h-52 lg:h-80 lg:ml-12 xl:ml-24 2xl:ml-36 w-full mt-8"
             src={ProfilePicture}
+            alt="A picture of David Silva"
+            title="David Silva"
           ></img>
           <div className="lg:flex flex-col lg:items-start lg:text-start">
             <h1 className="mt-6 mb-2 font-raleway font-bold text-[#728394] text-2xl">

@@ -53,6 +53,7 @@ function Hero() {
             <a
               href="https://github.com/Daverhan"
               target="_blank"
+              title="David Silva's GitHub Account"
               className="hover:text-[#0563bb]"
             >
               <AiFillGithub />
@@ -60,6 +61,7 @@ function Hero() {
             <a
               href="https://www.instagram.com/daverhan/"
               target="_blank"
+              title="David Silva's Instagram Account"
               className="hover:text-[#0563bb]"
             >
               <AiFillInstagram />
@@ -67,6 +69,7 @@ function Hero() {
             <a
               href="https://www.linkedin.com/in/david-anthony-silva/"
               target="_blank"
+              title="David Silva's LinkedIn Account"
               className="hover:text-[#0563bb]"
             >
               <AiFillLinkedin />
