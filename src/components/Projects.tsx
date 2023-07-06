@@ -54,7 +54,10 @@ function Projects() {
             <div className="border border-gray-400 p-4">
               <div className="text-start">
                 <div className="font-raleway font-bold text-2xl hover:text-[#8397aa]">
-                  <a href="https://github.com/Daverhan" target="_blank">
+                  <a
+                    href="https://github.com/Daverhan/david-silva-portfolio"
+                    target="_blank"
+                  >
                     Personal Portfolio Webpage
                   </a>
                 </div>
