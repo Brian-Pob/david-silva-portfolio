@@ -33,40 +33,40 @@ function Projects() {
         </p>
         <div className="lg:grid 2xl:px-72 grid-cols-2">
           <div className="my-8 px-4">
-            <div className="border border-gray-400 p-4">
-              <div className="text-start">
-                <div className="font-raleway font-bold text-lg md:text-2xl hover:text-[#8397aa]">
-                  <a
-                    href="https://github.com/Daverhan/PracticeManagement"
-                    target="_blank"
-                  >
+            <a
+              href="https://github.com/Daverhan/PracticeManagement"
+              target="_blank"
+            >
+              <div className="border border-gray-400 p-4">
+                <div className="text-start">
+                  <div className="font-raleway font-bold text-lg md:text-2xl hover:text-[#8397aa]">
                     Practice Management Application
-                  </a>
+                  </div>
+                  <p className="italic">C#, .NET MAUI</p>
+                  <p className="mt-4">
+                    A Full-Stack Practice Management Application
+                  </p>
                 </div>
-                <p className="italic">C#, .NET MAUI</p>
-                <p className="mt-4">
-                  A Full-Stack Practice Management Application
-                </p>
               </div>
-            </div>
+            </a>
           </div>
           <div className="my-8 px-4">
-            <div className="border border-gray-400 p-4">
-              <div className="text-start">
-                <div className="font-raleway font-bold text-lg md:text-2xl hover:text-[#8397aa]">
-                  <a
-                    href="https://github.com/Daverhan/david-silva-portfolio"
-                    target="_blank"
-                  >
+            <a
+              href="https://github.com/Daverhan/david-silva-portfolio"
+              target="_blank"
+            >
+              <div className="border border-gray-400 p-4">
+                <div className="text-start">
+                  <div className="font-raleway font-bold text-lg md:text-2xl hover:text-[#8397aa]">
                     Personal Portfolio Webpage
-                  </a>
+                  </div>
+                  <p className="italic">React, TailwindCSS, Typescript</p>
+                  <p className="mt-4">
+                    This webpage features my personal portfolio
+                  </p>
                 </div>
-                <p className="italic">React, TailwindCSS, Typescript</p>
-                <p className="mt-4">
-                  This webpage features my personal portfolio
-                </p>
               </div>
-            </div>
+            </a>
           </div>
         </div>
       </motion.div>
