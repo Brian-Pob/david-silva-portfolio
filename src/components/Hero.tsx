@@ -32,7 +32,7 @@ function Hero() {
       ref={ref}
       className="h-screen flex flex-col bg-hero_background bg-center bg-cover bg-blend-overlay bg-white/60"
     >
-      <div className="flex flex-1 items-center md:mb-0">
+      <div className="flex flex-1 items-center md:mb-0 ">
         <motion.div
           variants={{
             hidden: { opacity: 0, y: 75 },
@@ -41,12 +41,10 @@ function Hero() {
           initial="hidden"
           animate={mainControls}
           transition={{ duration: 0.75, delay: 0.25 }}
-          className="text-center mx-auto text-[#45505b]"
+          className="text-center mx-auto text-[#45505b] min-w-full"
         >
-          <h1 className="text-4xl font-raleway font-bold md:text-6xl">
-            Hi, I'm David Silva
-          </h1>
-          <p className="text-1xl font-poppins md:text-3xl mt-2">
+          <h1 className="font-raleway font-bold text-5xl">David Silva</h1>
+          <p className="font-poppins text-3xl mt-2 ">
             I'm an <span className="auto-type text-[#0563bb]"></span>
           </p>
           <div className="text-2xl md:text-3xl flex flex-row space-x-8 mt-5 justify-center">
