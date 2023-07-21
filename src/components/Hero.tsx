@@ -30,6 +30,7 @@ function Hero() {
   return (
     <section
       ref={ref}
+      id="hero"
       className="h-screen flex flex-col bg-hero_background bg-center bg-cover bg-blend-overlay bg-white/60"
     >
       <div className="flex flex-1 items-center md:mb-0 ">

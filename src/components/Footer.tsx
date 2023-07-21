@@ -1,4 +1,6 @@
+import { Link } from "react-scroll";
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
+import { BsArrowUpCircleFill } from "react-icons/bs";
 
 function Footer() {
   return (
@@ -32,6 +34,14 @@ function Footer() {
           >
             <AiFillLinkedin />
           </a>
+          <div
+            className="absolute text-4xl right-6 mt-3 hover:text-[#0563bb]"
+            title="Scroll to Hero Section"
+          >
+            <Link to="hero" spy={true} smooth={true} duration={700}>
+              <BsArrowUpCircleFill />
+            </Link>
+          </div>
         </div>
       </div>
     </section>
