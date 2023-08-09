@@ -34,7 +34,7 @@ function Projects() {
         <div className="lg:grid 2xl:px-72 grid-cols-2">
           <div className="my-8 px-4">
             <a
-              href="https://github.com/Daverhan/PracticeManagement"
+              href="https://github.com/Daverhan/practice-management-app"
               target="_blank"
             >
               <div className="border border-gray-400 p-4">
