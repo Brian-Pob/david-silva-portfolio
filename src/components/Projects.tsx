@@ -13,7 +13,7 @@ function Projects() {
   }, [isInView]);
 
   return (
-    <section className="flex flex-col">
+    <section className="mx-auto sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg 2xl:max-w-screen-2xl">
       <motion.div
         ref={ref}
         variants={{
@@ -25,11 +25,11 @@ function Projects() {
         transition={{ duration: 0.75, delay: 0.25 }}
         className="mt-10 text-center text-[#45505b] font-poppins"
       >
-        <h1 className="text-4xl font-raleway font-bold">PROJECTS</h1>
+        <h2 className="text-4xl font-raleway font-bold">PROJECTS</h2>
         <hr className="pt- w-36 inline-flex justify-center h-0.5 border-t-0 bg-blue-700 opacity-100 dark:opacity-50"></hr>
         <p className="mt-4 mx-12">
           My GitHub will contain more in-depth information pertaining to each of
-          the projects listed here.
+          the projects listed here
         </p>
         <div className="lg:grid 2xl:px-72 grid-cols-2">
           <div className="my-8 px-4">

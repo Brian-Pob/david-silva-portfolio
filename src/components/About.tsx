@@ -14,7 +14,7 @@ function About() {
   }, [isInView]);
 
   return (
-    <section className="flex flex-col">
+    <section className="flex flex-col max-w-screen-2xl mx-auto">
       <motion.div
         ref={ref}
         variants={{
@@ -26,28 +26,25 @@ function About() {
         transition={{ duration: 0.75, delay: 0.25 }}
         className="mt-10 text-center text-[#45505b] font-poppins"
       >
-        <h1 className="text-4xl font-raleway font-bold">ABOUT</h1>
+        <h2 className="text-4xl font-raleway font-bold">ABOUT</h2>
         <hr className="pt- w-24 inline-flex justify-center h-0.5 border-t-0 bg-blue-700 opacity-100 dark:opacity-50"></hr>
         <p className="mt-4 mx-12 lg:mx-32 xl:mx-60 2xl:mx-80">
-          I am an Undergraduate Senior Student at Florida State University. I
-          enjoy studying computer science and enhancing my knowledge
-          specifically in the field of Software Engineering. I am in the FSU
-          Marching Chiefs and play Euphonium. I am also a part of the ACM
-          Chapter at FSU where I attend weekly programming club meetings as well
-          as periodically hosted presentations that cover topics in Computer
-          Science.
+          I am an undergraduate student at Florida State University with a
+          passion for software engineering and cybersecurity. I march Euphonium
+          in the FSU Marching Chiefs and I am a member of the ACM Chapter at
+          FSU.
         </p>
         <div className="lg:grid grid-cols-2">
           <img
-            className="object-scale-down h-52 lg:h-80 lg:ml-12 xl:ml-24 2xl:ml-36 w-full mt-8"
+            className="object-scale-down h-52 lg:h-80 lg:ml-12 xl:ml-24 2xl:ml-32 w-full mt-8"
             src={ProfilePicture}
             alt="A picture of David Silva"
             title="David Silva"
           ></img>
           <div className="lg:flex flex-col lg:items-start lg:text-start">
-            <h1 className="mt-6 mb-2 font-raleway font-bold text-[#728394] text-2xl">
-              Aspiring Software Engineer
-            </h1>
+            <h2 className="mt-6 mb-2 font-raleway font-bold text-[#728394] text-2xl">
+              Computer Science Student
+            </h2>
             <div className="flex flex-row justify-center text-start">
               <ul className="my-4">
                 <li>
@@ -60,19 +57,13 @@ function About() {
                 <li>
                   <span className="font-bold">Email:</span> daverhan02@gmail.com
                 </li>
-                <li>
-                  <span className="font-bold">Age:</span> 21
-                </li>
               </ul>
             </div>
             <p className="mt-4 mx-12 lg:ml-0 xl:mr-32 2xl:mr-52">
-              I will be adding projects that I am working on that showcase my
-              programming skills and knowledge of Software Engineering
-              principles to the projects section of this website. I will be
-              looking to learn the latest technologies that will help further
-              advance my career. I plan on pursuing an M.S. in Computer Science
-              and I will be exploring Software Engineering Internship
-              opportunities.
+              I am a recipient of the CyberCorps®: Scholarship for Service
+              program which is funded by the National Science Foundation. This
+              scholarship gives me the opportunity to start a career in
+              cybersecurity with the U.S. government.
             </p>
           </div>
         </div>

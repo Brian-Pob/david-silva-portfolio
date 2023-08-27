@@ -6,9 +6,9 @@ function Footer() {
   return (
     <section className="py-10 bg-gray-100">
       <div className="text-center">
-        <h1 className="font-poppins font-bold text-4xl text-[#45505b]">
+        <h2 className="font-poppins font-bold text-4xl text-[#45505b]">
           David Silva
-        </h1>
+        </h2>
         <div className="text-3xl flex flex-row space-x-8 mt-4 justify-center text-[#0678e3]">
           <a
             href="https://github.com/Daverhan"
