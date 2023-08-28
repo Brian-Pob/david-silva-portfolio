@@ -4,7 +4,7 @@ import { BsArrowUpCircleFill } from "react-icons/bs";
 
 function Footer() {
   return (
-    <section className="py-10 bg-gray-100">
+    <footer className="py-10 bg-gray-100">
       <div className="text-center">
         <h2 className="font-poppins font-bold text-4xl text-[#45505b]">
           David Silva
@@ -44,7 +44,7 @@ function Footer() {
           </div>
         </div>
       </div>
-    </section>
+    </footer>
   );
 }
 

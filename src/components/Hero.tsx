@@ -44,7 +44,10 @@ function Hero() {
         className="text-center text-[#45505b] min-w-full"
       >
         <h1 className="font-raleway font-bold text-5xl">David Silva</h1>
-        <p className="font-poppins text-3xl mt-2">
+        <p
+          className="font-poppins text-3xl mt-2"
+          aria-label={"I'm an Undergraduate Student"}
+        >
           I'm an <span className="auto-type text-[#0563bb]"></span>
         </p>
         <div className="text-2xl md:text-3xl flex flex-row space-x-8 mt-5 justify-center">
