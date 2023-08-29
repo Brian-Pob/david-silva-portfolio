@@ -36,7 +36,7 @@ function About() {
         </p>
         <div className="lg:grid grid-cols-2">
           <img
-            className="object-scale-down h-52 lg:h-80 lg:ml-12 xl:ml-24 2xl:ml-32 w-full mt-8"
+            className="object-scale-down h-52 lg:h-72 lg:ml-12 xl:ml-24 2xl:ml-36 w-full mt-8"
             src={ProfilePicture}
             alt="A picture of David Silva"
             title="David Silva"
@@ -59,9 +59,9 @@ function About() {
                 </li>
               </ul>
             </div>
-            <p className="mt-4 mx-12 lg:ml-0 xl:mr-32 2xl:mr-52">
+            <p className="mt-4 mx-12 lg:ml-0 lg:mr-44 xl:mr-52 2xl:mr-80">
               I am a recipient of the CyberCorps®: Scholarship for Service
-              program which is funded by the National Science Foundation. This
+              program funded by the National Science Foundation. This
               scholarship gives me the opportunity to start a career in
               cybersecurity with the U.S. government.
             </p>

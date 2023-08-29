@@ -6,9 +6,12 @@ import Typed from "typed.js";
 function Hero() {
   useEffect(() => {
     var typed = new Typed(".auto-type", {
-      strings: ["Undergraduate Student"],
+      strings: [
+        "Computer Science Student",
+        "CyberCorps®: Scholarship for Service Recipient",
+      ],
       typeSpeed: 80,
-      backSpeed: 80,
+      backSpeed: 40,
       loop: true,
     });
 
@@ -46,9 +49,11 @@ function Hero() {
         <h1 className="font-raleway font-bold text-5xl">David Silva</h1>
         <p
           className="font-poppins text-3xl mt-2"
-          aria-label={"I'm an Undergraduate Student"}
+          aria-label={
+            "I'm a Computer Science Student and a CyberCorps®: Scholarship for Service Recipient"
+          }
         >
-          I'm an <span className="auto-type text-[#0563bb]"></span>
+          I'm a <span className="auto-type text-[#0563bb]"></span>
         </p>
         <div className="text-2xl md:text-3xl flex flex-row space-x-8 mt-5 justify-center">
           <a
