@@ -6,10 +6,7 @@ import Typed from "typed.js";
 function Hero() {
   useEffect(() => {
     var typed = new Typed(".auto-type", {
-      strings: [
-        "Computer Science Student",
-        "CyberCorps®: Scholarship for Service Recipient",
-      ],
+      strings: ["Computer Science Student"],
       typeSpeed: 80,
       backSpeed: 40,
       loop: true,
@@ -34,7 +31,7 @@ function Hero() {
     <section
       ref={ref}
       id="hero"
-      className="h-screen flex flex-col bg-hero_background bg-center bg-cover bg-blend-overlay bg-white/60 justify-center"
+      className="h-screen flex flex-col bg-hero_background bg-center bg-cover bg-blend-overlay bg-white/50 justify-center"
     >
       <motion.div
         variants={{
@@ -44,14 +41,12 @@ function Hero() {
         initial="hidden"
         animate={mainControls}
         transition={{ duration: 0.75, delay: 0.25 }}
-        className="text-center text-[#45505b] min-w-full"
+        className="text-center text-[#45505b] min-w-full mb-52"
       >
-        <h1 className="font-raleway font-bold text-5xl">David Silva</h1>
+        <h1 className="font-raleway font-bold text-6xl">David Silva</h1>
         <p
-          className="font-poppins text-3xl mt-2"
-          aria-label={
-            "I'm a Computer Science Student and a CyberCorps®: Scholarship for Service Recipient"
-          }
+          className="font-poppins text-4xl mt-2"
+          aria-label={"I'm a Computer Science Student"}
         >
           I'm a <span className="auto-type text-[#0563bb]"></span>
         </p>
