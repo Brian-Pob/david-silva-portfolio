@@ -43,9 +43,11 @@ function Hero() {
         transition={{ duration: 0.75, delay: 0.25 }}
         className="text-center text-[#45505b] min-w-full mb-52"
       >
-        <h1 className="font-raleway font-bold text-6xl">David Silva</h1>
+        <h1 className="font-raleway font-bold text-5xl md:text-6xl">
+          David Silva
+        </h1>
         <p
-          className="font-poppins text-4xl mt-2"
+          className="font-poppins text-3xl md:text-4xl mt-2"
           aria-label={"I'm a Computer Science Student"}
         >
           I'm a <span className="auto-type text-[#0563bb]"></span>
