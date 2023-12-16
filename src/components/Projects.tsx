@@ -58,11 +58,11 @@ function Projects() {
               <div className="border border-gray-400 p-4">
                 <div className="text-start">
                   <div className="font-raleway font-bold text-lg md:text-2xl hover:text-[#8397aa]">
-                    Personal Portfolio Webpage
+                    Personal Portfolio Website
                   </div>
                   <p className="italic">React, TailwindCSS, Typescript</p>
                   <p className="mt-4">
-                    This webpage features my personal portfolio
+                    This website features my personal portfolio
                   </p>
                 </div>
               </div>
