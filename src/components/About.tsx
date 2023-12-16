@@ -30,9 +30,9 @@ function About() {
         <hr className="pt- w-24 inline-flex justify-center h-0.5 border-t-0 bg-blue-700 opacity-100 dark:opacity-50"></hr>
         <p className="mt-4 mx-12 lg:mx-32 xl:mx-60 2xl:mx-80">
           I am an undergraduate student at Florida State University with a
-          passion for software engineering and cybersecurity. I march Euphonium
-          in the FSU Marching Chiefs and I am a member of the ACM Chapter at
-          FSU.
+          passion for software engineering and cybersecurity. Additionally, I
+          march Euphonium in the FSU Marching Chiefs and I actively participate
+          in the ACM Chapter at FSU.
         </p>
         <div className="lg:grid grid-cols-2">
           <img
