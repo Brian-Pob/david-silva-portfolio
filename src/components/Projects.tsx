@@ -26,7 +26,7 @@ function Projects() {
         className="mt-10 text-center text-[#45505b] font-poppins"
       >
         <h2 className="text-4xl font-raleway font-bold">PROJECTS</h2>
-        <hr className="pt- w-36 inline-flex justify-center h-0.5 border-t-0 bg-blue-700 opacity-100 dark:opacity-50"></hr>
+        <hr className="mx-auto mt-3 w-36 h-0.5 border-t-0 bg-blue-700 opacity-100 dark:opacity-50"></hr>
         <p className="mt-4 mx-12">
           My GitHub will contain more in-depth information pertaining to each of
           the projects listed here

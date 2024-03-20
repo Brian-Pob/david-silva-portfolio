@@ -27,12 +27,12 @@ function About() {
         className="mt-10 text-center text-[#45505b] font-poppins"
       >
         <h2 className="text-4xl font-raleway font-bold">ABOUT</h2>
-        <hr className="pt- w-24 inline-flex justify-center h-0.5 border-t-0 bg-blue-700 opacity-100 dark:opacity-50"></hr>
+        <hr className="mx-auto mt-3 w-24 h-0.5 border-t-0 bg-blue-700 opacity-100 dark:opacity-50"></hr>
         <p className="mt-4 mx-12 lg:mx-32 xl:mx-60 2xl:mx-80">
-          I am an undergraduate student at Florida State University with a
-          passion for software engineering and cybersecurity. Additionally, I
-          march Euphonium in the FSU Marching Chiefs and I actively participate
-          in the ACM Chapter at FSU.
+          I am a graduate student at Florida State University with a passion for
+          software engineering and cybersecurity. Additionally, I march
+          Euphonium in the FSU Marching Chiefs and I actively participate in the
+          ACM Chapter at FSU.
         </p>
         <div className="lg:grid grid-cols-2">
           <img
@@ -48,8 +48,8 @@ function About() {
             <div className="flex flex-row justify-center text-start">
               <ul className="my-4">
                 <li>
-                  <span className="font-bold">Degree:</span> Pursuing B.A. in
-                  Computer Science
+                  <span className="font-bold">Degree:</span> M.S. in Computer
+                  Science
                 </li>
                 <li>
                   <span className="font-bold">Location:</span> Florida, USA
